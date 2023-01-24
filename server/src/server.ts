@@ -1,8 +1,18 @@
 import Fastify from "fastify";
-
+import { PrismaClient } from "@prisma/client";
 const app = Fastify();
-app.get("/", () => {
-  return "Hello World";
+const prisma = new PrismaClient();
+
+app.get("/hello", async () => {
+  const habits = await prisma.habit.findMany({
+    where: {
+      title: {
+        startsWith: "Beber",
+      },
+    },
+  });
+
+  return habits;
 });
 
 app
@@ -12,3 +22,5 @@ app
   .then(() => {
     console.log("HTTP Server Running");
   });
+
+
