@@ -1,4 +1,4 @@
-pareo no minuto: 40:20
+parei no video 2 no minuto: 18
 
 
 Comandos:
