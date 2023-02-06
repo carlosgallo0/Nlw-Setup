@@ -1,4 +1,4 @@
-parei no video 2 no minuto: 18
+parei no video 2 no minuto: 40 tentando entender o erro do weekDay 
 
 
 Comandos:
