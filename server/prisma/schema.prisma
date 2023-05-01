@@ -12,7 +12,9 @@ generator erd {
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
-}
+ // title      String
+  //created_at DateTime
+}// pode ser esse o problema
 
 model Habit {
   id            String          @id @default(uuid())

@@ -1,5 +1,5 @@
-parei no video 2 no minuto: 40 tentando entender o erro do weekDay 
-
+parei no video 2 no minuto: 58
 
 Comandos:
+
 - npx prisma studio -> abre no navegador um leitor de bd
